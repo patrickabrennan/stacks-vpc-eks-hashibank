@@ -8,14 +8,14 @@ required_providers {
   }
 
   time = {
-    source = "hashicorp/time"
-    version = "~> 0.1"
+    source  = "hashicorp/time"
+    version = "~> 0.13.0"
   }
   
 
   helm = {
     source = "hashicorp/helm"
-    version = "~> 2.12"
+    version = "~> 2.14.0"
   }
 
 

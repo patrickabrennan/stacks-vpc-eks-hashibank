@@ -17,7 +17,7 @@ required_providers {
 
   time = {
     source = "hashicorp/time"
-    version = "~> 0.13"
+    version = "~> 0.13.0"
   }
   
   tls = {
@@ -27,7 +27,7 @@ required_providers {
 
   helm = {
     source = "hashicorp/helm"
-    version = "~> 2.12"
+    version = "~> 2.14.0"
   }
 
   local = {
